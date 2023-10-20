@@ -9,4 +9,5 @@ public class PlentResponseDto {
     private String user_id;
     private String password;
     private String password_check;
+
 }

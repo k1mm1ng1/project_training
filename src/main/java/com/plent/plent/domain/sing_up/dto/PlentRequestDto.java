@@ -14,4 +14,5 @@ public class PlentRequestDto {
 
     @Column(nullable = false)
     private String password_check;
+
 }

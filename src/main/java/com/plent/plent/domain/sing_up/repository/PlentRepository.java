@@ -11,4 +11,5 @@ public interface PlentRepository extends JpaRepository<Plent, Long> {
     List<Plent> findAll();
 
     Plent save(Plent plent);
+
 }

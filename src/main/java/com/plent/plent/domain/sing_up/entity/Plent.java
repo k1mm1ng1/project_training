@@ -21,11 +21,5 @@ public class Plent {
     @Column(nullable = false)
     private String password_check;
 
-    public Plent(PlentRequestDto plentRequestDto){
-        this.user_id = plentRequestDto.getUser_id();
-        this.password = plentRequestDto.getPassword();
-
-
-    }
-
 }
+

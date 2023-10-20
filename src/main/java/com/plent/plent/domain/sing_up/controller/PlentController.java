@@ -30,4 +30,5 @@ public class PlentController {
         plentService.Create(plent);
         return new ResponseEntity<>(plent,HttpStatus.OK);
     }
+
 }

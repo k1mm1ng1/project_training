@@ -24,4 +24,5 @@ public class PlentService {
     public PlentService(PlentRepository plentRepository) {
         this.plentRepository = plentRepository;
     }
+
 }
